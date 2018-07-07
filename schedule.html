@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Расписание</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="main-menu__wrapper">
+        <div class="logo">
+          <a href="index.html">
+            <img src="images/logo.png" alt="logo" class="logo_img">
+          </a>
+        </div>
+        <nav class="main-menu">
+          <ul class="main-menu__list">
+            <li class="main-menu__item">
+              <a class="main-menu__link main-menu__link--active" href="schedule.html">Расписание</a></li>
+            <li class="main-menu__item">
+              <a class="main-menu__link" href="instructors.html">Инструкторы</a></li>
+            <li class="main-menu__item">
+              <a class="main-menu__link" href="#">Стоимость</a></li>
+            <li class="main-menu__item">
+              <a class="main-menu__link" href="#">Как добраться</a></li>
+          </ul>
+        </nav>
+        <div class="main-menu__phone-link">
+          <a href="tel:88008008080">8 (800) 800-80-80</a>
+        </div>
+        <a href="#" class="button">Записаться</a>
+      </div>
+    </div>
+  </header>
+  <main>
+  <div class="container">
+    <h1 class="title schedule_title">Выбрать программу</h1>
+    <section>
+      <div class="container">
+        <table>
+          <tr>
+            <th>Спорт</th>
+            <th>Инструктор</th>
+            <th>Дата</th>
+            <th>Время</th>
+            <th>Стоимость</th>
+          </tr>
+          <tr>
+            <td>Сноуборд</td>
+            <td>Константин Константинопольский</td>
+            <td>30.02.2017</td>
+            <td>12:00</td>
+            <td>2000 руб.</td>
+            <td><a href="#">Записаться</a></td>
+          </tr>
+          <tr>
+            <td>Сноуборд</td>
+            <td>Константин Константинопольский</td>
+            <td>01.04.2017</td>
+            <td>12:00</td>
+            <td>2000 руб.</td>
+            <td><a href="#">Записаться</a></td>
+          </tr>
+          <tr>
+            <td>Лыжи</td>
+            <td>Степан Александров</td>
+            <td>01.04.2017</td>
+            <td>13:00</td>
+            <td>3000 руб.</td>
+            <td><a href="#">Записаться</a></td>
+          </tr>
+          <tr>
+            <td>Лыжи</td>
+            <td>Виталий Сергеев</td>
+            <td>03.04.2017</td>
+            <td>14:00</td>
+            <td>4000 руб.</td>
+            <td><a href="#">Записаться</a></td>
+          </tr>
+          <tr>
+            <td>Сноуборд</td>
+            <td>Арсений Петров</td>
+            <td>04.04.2017</td>
+            <td>14:00</td>
+            <td>4000 руб.</td>
+            <td><a href="#">Записаться</a></td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <section>
+
+      <div class="programm">
+        <div class="container">
+          <div class="programm__item">
+            <div class="programm__instruсtor-photo">
+                <img class="programm__img" src="images/kostya_schedule_card.png" alt="Константин Константинопольский">
+                <p class="programm__instructor-name">Константин Константинопольский</p>
+            </div>
+            <div class="programm__description">
+
+              <h3 class="programm__description-title">Free ride / продвинутый уровень</h3>
+              <p class="programm__description-text">Дата занятий - 30 марта 2017 года.</p>
+              <p class="programm__description-text--bold">Абонемент на разовое посещение (3 часа)</p>
+              <p class="programm__description-text">Занятие рассчитано на опытных учеников и проходит вне подготовленной трассы, рядом с горнолыжной базой. Катание по нетронутому снегу раскрывает все возможности горных лыж, а опытный инструктор научит контролировать лыжи на любой поверхности.
+              </p>
+              <a class="programm__description-link" href="#">Узнать больше</a>
+             </div>
+              <div class="programm__price">
+                <p>2 000 &#8381; <!-- рубли --> </p>
+                <a class="button" href="#">Купить</a>
+              </div>
+
+
+          </div>
+        </div>
+      </div>
+        <ul class="programm__tabs-list">
+          <li class="programm__tabs-item">
+            <a href="#" alt=""></a> < </a></li>
+          <li class="programm__tabs-item">
+            <a href="#" alt=""></a>1</a></li>
+          <li class="programm__tabs-item">
+            <a href="#" alt=""></a>2</a></li>
+          <li class="programm__tabs-item">
+            <a href="#" alt=""></a>3</a></li>
+          <li class="programm__tabs-item">
+            <a href="#" alt=""></a>4</a></li>
+          <li class="programm__tabs-item">
+            <a href="#" alt=""></a>5</a></li>
+          <li class="programm__tabs-item">
+            <a href="#" alt=""></a> > </a></li>
+        </ul>
+
+    </section>
+    <h2 class="title">Заказать обратный звонок</h2>
+    <!-- Тут типа форма... -->
+
+    <form action="">
+      <p><sup>*</sup>Имя
+        <input type="text"></p>
+      <p><sup>*</sup>Фамилия
+        <input type="text"></p>
+      <p><sup>*</sup>Телефон
+        <input type="text"></p>
+      <p>Ваше сообщение
+        <input type="text"></p>
+    </form>
+  </div>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="footer">
+        <div class="contact-links">
+          <div class="logo">
+            <a href="index.html">
+              <img src="images/logo.png" alt="logo" class="logo_img">
+            </a>
+          </div>
+          <div class="social">
+            <ul class="social-list">
+              <li class="social-item">
+                <a class="social__youtube" href="#"></a>
+              </li>
+              <li class="social-item">
+                <a class="social__instagram" href="#"></a>
+              </li>
+              <li class="social-item">
+                <a class="social__facebook" href="#"></a>
+              </li>
+              <li class="social-item">
+                <a class="social__vk" href="#"></a>
+              </li>
+            </ul>
+          </div>
+          <div class="contacts">
+            <a class="contacts__phone" href="tel:88008008080">8 (800) 800-80-80</a>
+            <a class="contacts__mail" href="mailto:hello@iceace.com">hello@iceace.com</a>
+          </div>
+        </div>
+        <div class="footer-wrapper">
+          <div class="copyright">
+            <p class="copyright__text">&copy; 2017 <span class="copyrigth__span">"ICE ACE"</span> &mdash; школа сноуборда и<br> горных лыж. Все права защищены
+            </p>
+          </div>
+          <nav class="footer-nav">
+            <ul class="footer-nav__list">
+              <li class="footer-nav__item">
+                <a class="footer-nav__link" href="schedule.html">Расписание</a></li>
+              <li class="footer-nav__item">
+                <a class="footer-nav__link" href="instructors.html">Инструкторы</a></li>
+              <li class="footer-nav__item">
+                <a class="footer-nav__link" href="#">Стоимость</a></li>
+              <li class="footer-nav__item">
+                <a class="footer-nav__link" href="#">Как добраться</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    </footer>
+</body>
+</html>

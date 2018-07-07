@@ -1,0 +1,1143 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Futura PT";
+  src: url("../fonts/futura_pt/subset-FuturaPT-Book.woff2") format("woff2"), url("../fonts/futura_pt/subset-FuturaPT-Book.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Futura PT";
+  src: url("../fonts/futura_pt/subset-FuturaPT-Medium.woff2") format("woff2"), url("../fonts/futura_pt/subset-FuturaPT-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Futura PT";
+  src: url("../fonts//futura_pt/subset-FuturaPT-Demi.woff2") format("woff2"), url("../fonts/futura_pt/subset-FuturaPT-Demi.woff") format("woff");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Futura PT";
+  src: url("../fonts/futura_pt/subset-FuturaPT-Bold.woff2") format("woff2"), url("../fonts/futura_pt/subset-FuturaPT-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Futura PT";
+  src: url("../fonts/futura_pt/subset-FuturaPT-ExtraBold.woff2") format("woff2"), url("../fonts/futura_pt/subset-FuturaPT-ExtraBold.woff") format("woff");
+  font-weight: 900;
+  font-style: normal; }
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #000;
+  font-size: 15px; }
+
+* {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit; }
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400; }
+
+header {
+  margin: 40px 0;
+  display: none; }
+
+h1 {
+  margin: 0;
+  font-family: "Futura PT", sans-serif;
+  font-weight: 900; }
+
+h2 {
+  margin: 0;
+  padding: 0;
+  font-family: "Futura PT", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 40px; }
+
+h3 {
+  margin: 0;
+  padding: 0;
+  font-family: "Futura PT", sans-serif;
+  font-weight: 500; }
+
+a {
+  color: #000;
+  text-decoration: none;
+  display: inline-block; }
+
+nav {
+  display: block; }
+
+ul {
+  /*display: flex;*/
+  text-decoration: none;
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style-type: none; }
+
+section {
+  margin-bottom: 10px; }
+
+blockquote {
+  margin: 0 auto;
+  padding: 40px;
+  background-image: url(../images/bg_blockquote.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%; }
+
+.title {
+  font-family: "Futura PT", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 40px; }
+
+/*PROMO*/
+.promo {
+  position: relative;
+  margin-bottom: 10px;
+  background-color: #000;
+  background-image: url(../images/bg_upper_header_index.jpg);
+  background-repeat: no-repeat;
+  background-position: 63%;
+  background-size: cover;
+  color: #fff; }
+
+.logo__white {
+  padding: 15px 0 0 15px;
+  max-width: 65px;
+  float: left; }
+
+.logo__white-img {
+  width: 100%; }
+
+.mobile-menu {
+  margin: 15px 15px 0 0;
+  float: right;
+  max-width: 30px; }
+
+.promo__link {
+  position: absolute;
+  bottom: 20%;
+  left: 0;
+  right: 0;
+  display: block;
+  text-align: center; }
+
+.promo-button {
+  display: inline-block;
+  padding: 10px 15px;
+  font-family: "Futura PT";
+  font-weight: 700;
+  border: 2px solid #74e196;
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.promo__first-title {
+  padding: 130px 0 0 15px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px; }
+
+.promo__second-title {
+  display: inline-block;
+  padding: 0 0 270px 0;
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: 600; }
+
+.container {
+  margin: 0 auto;
+  max-width: 320px; }
+
+.container:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+/*HEADER*/
+.logo {
+  display: block;
+  min-width: 160px; }
+
+.logo_img {
+  width: 100%; }
+
+.main-menu__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #000; }
+
+.main-menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.main-menu__item {
+  margin: 0 20px 0 20px; }
+
+.main-menu li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Futura PT";
+  font-weight: 600;
+  font-size: 15px; }
+
+.main-menu__link {
+  border-bottom: 3px solid transparent;
+  /*margin:  0 5px 0 5px;*/ }
+
+.main-menu__link--active {
+  border-bottom: 3px solid #6de793; }
+
+.main-menu__phone-link {
+  display: block;
+  margin-right: 20px;
+  font-weight: 700;
+  font-size: 22px; }
+
+/*SERVICES*/
+.services__title {
+  font-size: 24px; }
+
+.services__description {
+  text-align: center;
+  font-size: 10px;
+  font-weight: 600;
+  margin-bottom: 15px; }
+
+.services__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  /*justify-content: space-between;*/ }
+
+.service-column {
+  /*display: flex;
+  flex-direction: column;*/ }
+
+.service-row-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  /*flex-direction: row;*/ }
+
+.service-row {
+  /*flex-wrap: wrap;*/ }
+
+.service__photo {
+  width: 165px;
+  height: 165px; }
+
+.service__photo--row {
+  width: 155px;
+  height: 82.5px; }
+
+.service__img {
+  width: 100%;
+  height: 100%; }
+
+.service__info {
+  position: relative;
+  max-width: 350px; }
+
+.service__info-row {
+  position: relative;
+  padding-left: 40px;
+  max-height: 250;
+  max-width: 350px; }
+
+.service__title {
+  position: absolute;
+  bottom: 20px;
+  left: 5px;
+  font-size: 14px;
+  color: #fff; }
+
+.service__description {
+  display: none; }
+
+.service__links {
+  position: relative;
+  vertical-align: bottom; }
+
+.service-span {
+  display: none; }
+
+.right-arrow {
+  position: absolute;
+  bottom: 13px;
+  right: 0;
+  width: 37px;
+  height: 27px;
+  background-position: -6px -310px;
+  background-image: url(../images/icon/sprite/sprites.png); }
+
+/*ПОЧЕМУ МЫ*/
+/*ADVANTAGES*/
+.advantages__title {
+  margin-bottom: 20px;
+  font-size: 24px; }
+
+.advantages__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-left: 15px; }
+
+.advantages__info {
+  /*position: relative;*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
+.advantages__icon {
+  margin: 0 18px 10px;
+  -ms-flex-item-align: top;
+      align-self: top;
+  vertical-align: middle; }
+
+h3.advantage__title {
+  margin: 0;
+  padding: 0; }
+
+.advantage__title {
+  font-size: 14px;
+  font-weight: 600; }
+
+.advantages__text {
+  max-width: 200px;
+  font-size: 12px;
+  color: #757575; }
+
+/*SPRITES*/
+.like {
+  background-position: -86px -68px;
+  width: 60px;
+  height: 61px;
+  background-image: url(../images/icon/sprite/sprites.png); }
+
+.certificate {
+  background-position: -78px -149px;
+  width: 53px;
+  height: 61px;
+  background-image: url(../images/icon/sprite/sprites.png); }
+
+.calendar {
+  background-position: -98px -224px;
+  width: 58px;
+  height: 61px;
+  background-image: url(../images/icon/sprite/sprites.png); }
+
+.ski {
+  background-position: -9px -52px;
+  width: 61px;
+  height: 75px;
+  background-image: url(../images/icon/sprite/sprites.png); }
+
+.snowboard-helmet {
+  background-position: -9px -146px;
+  width: 58px;
+  height: 71px;
+  background-image: url(../images/icon/sprite/sprites.png); }
+
+.bus {
+  background-position: -6px -232px;
+  width: 80px;
+  height: 55px;
+  background-image: url(../images/icon/sprite/sprites.png); }
+
+/*SPRITES*/
+/*BUTTON*/
+.button {
+  display: inline-block;
+  padding: 10px 15px;
+  font-family: "Futura PT";
+  font-size: 15px;
+  font-weight: 700;
+  color: #74e196;
+  text-transform: uppercase;
+  border: 2px solid #000; }
+
+.button-white {
+  border: 2px solid #fff;
+  bottom: 40px; }
+
+/*BUTTON*/
+/*СКИДКИ НА АБОНЕМЕНТЫ*/
+.discount {
+  position: relative;
+  width: 100%;
+  /*width: 1280px;*/
+  height: 362px;
+  background-image: url(../images/bg_action.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.discount__title {
+  /*height: 100px;*/
+  padding: 15px 0 70px;
+  margin: 0;
+  font-size: 24px;
+  color: #fff; }
+
+.discount__subtitle {
+  font-size: 22px; }
+
+.discount__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+
+.discount__info:nth-child(2),
+.discount__info:nth-child(3) {
+  display: none; }
+
+.discount__info {
+  max-width: 205px;
+  display: inline-block;
+  text-align: center;
+  color: #fff; }
+
+.discount__text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px; }
+
+.discount__span {
+  color: #83eba5; }
+
+.discount__button {
+  display: none; }
+
+/*TEAM*/
+.team {
+  position: relative;
+  height: 400px;
+  background: -webkit-gradient(linear, left bottom, left top, from(transparent));
+  background: linear-gradient(to top, transparent);
+  background-image: url(../images/bg_team.jpg);
+  background-repeat: no-repeat;
+  background-size: 200%;
+  background-position: 50%; }
+
+.team__description--wrapper {
+  /*position: absolute;
+  bottom: 0;*/
+  height: 230px; }
+
+.team__title {
+  font-size: 24px; }
+
+.team__description {
+  display: none; }
+
+.team__button {
+  margin: 60px auto 0;
+  text-align: center; }
+
+/*COMMUNITY*/
+.community__title {
+  font-size: 24px;
+  margin-bottom: 18px; }
+
+.community__text--wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.community__text {
+  max-width: 290px;
+  line-height: 12px;
+  color: #a6a6a6;
+  text-align: center; }
+
+.map {
+  /*width: 1160px;*/
+  height: 360px;
+  margin-bottom: 20px; }
+
+.gallery__title {
+  font-size: 24px;
+  margin-bottom: 20px; }
+
+.gallery__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.gallery__item:nth-child(3),
+.gallery__item:nth-child(4),
+.gallery__item:nth-child(5),
+.gallery__item:nth-child(6) {
+  display: none; }
+
+/*COMMUNITY*/
+/*FOOTER*/
+footer {
+  background-image: url(../images/footer_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0 90px; }
+
+.logo-mini {
+  max-width: 65px;
+  margin-bottom: 40px; }
+
+.logo-mini__img {
+  width: 100%; }
+
+.contact-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.contact-links .logo {
+  display: none; }
+
+.social-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.social-item {
+  margin: 0 20px; }
+
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Futura PT";
+  font-weight: 700;
+  /*line-height: 35px;*/ }
+
+.contacts__phone {
+  font-size: 22px; }
+
+.contacts__mail {
+  font-size: 20px; }
+
+.footer-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end; }
+
+.copyright {
+  margin: auto;
+  text-align: center; }
+
+.copyright__text {
+  font-size: 12px;
+  font-weight: 600; }
+
+.copyrigth__span {
+  text-transform: uppercase; }
+
+.footer-nav {
+  display: none; }
+
+.footer-nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.footer-nav__item {
+  margin: 0 0 0 50px; }
+
+.footer-nav__link {
+  font-family: "Futura PT";
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 15px; }
+
+/*FOOTER*/
+/*SOCIAL*/
+.social__facebook {
+  background-position: -114px -6px;
+  width: 18px;
+  height: 33px;
+  background-image: url(../images/icon/sprite/sprites.png); }
+
+.social__instagram {
+  background-position: -58px -8px;
+  width: 32px;
+  height: 32px;
+  background-image: url(../images/icon/sprite/sprites.png); }
+
+.social__vk {
+  background-position: -154px -14px;
+  width: 40px;
+  height: 24px;
+  background-image: url(../images/icon/sprite/sprites.png); }
+
+.social__youtube {
+  background-position: -8px -9px;
+  width: 32px;
+  height: 32px;
+  background-image: url(../images/icon/sprite/sprites.png); }
+
+/*SOCIAL*/
+/*
+.white {
+  color: #fff;
+}*/
+/*СТРАНИЦА РАСПИСАНИЯ*/
+h1.schedule_title {
+  margin: 0 0 40px 0; }
+
+table {
+  font-family: "PT Sans";
+  width: 1150px;
+  border-collapse: collapse; }
+
+th {
+  padding-bottom: 10px;
+  text-align: left; }
+
+td {
+  min-width: 300px;
+  min-width: 150px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 15px;
+  /*padding-right: 30px;*/
+  border: 3px solid #000; }
+
+td a {
+  font-family: "Futura PT";
+  font-weight: 650;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #83eba5;
+  display: block;
+  text-align: center; }
+
+.programm__item {
+  overflow: hidden;
+  border: 2px solid #000;
+  padding: 40px 60px; }
+
+.programm__description {
+  float: left;
+  width: 450px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin-right: 125px; }
+
+.programm__description-title {
+  font-size: 30px; }
+
+.programm__description-text--bold {
+  font-weight: bold; }
+
+.programm__instruсtor-photo {
+  float: left;
+  position: relative;
+  width: 200px;
+  margin-right: 90px; }
+
+.programm__img {
+  width: 100%; }
+
+.programm__instructor-name {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  padding-top: 5px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  bottom: -10%; }
+
+.programm__tabs-list {
+  margin-top: 15px;
+  display: block;
+  text-align: center; }
+
+.programm__tabs-item {
+  display: inline-block; }
+
+/*СТРАНИЦА РАСПИСАНИЯ*/
+/*СТРАНИЦА ИНСТРУКТОРОВ*/
+form {
+  margin: auto;
+  width: 555px; }
+
+.search__instructor {
+  border: 1px solid #000; }
+
+.search {
+  width: 640px;
+  margin: 50px auto;
+  line-height: 22px;
+  border: 2px solid #000; }
+
+.search__instructor {
+  font-family: "PT Sans";
+  padding: 10px;
+  width: 585px; }
+
+.search__icon {
+  padding: 5px 10px 5px;
+  vertical-align: middle; }
+
+.instructors-gallery__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.instructors-gallery__photo {
+  position: relative;
+  height: 230px;
+  width: 230px; }
+
+.instructors-gallery__img {
+  width: 100%;
+  height: 100%; }
+
+.instructors-gallery__img--overlay {
+  position: absolute;
+  top: 0px;
+  height: 230px;
+  width: 230px;
+  -webkit-transition: all, 0.2s;
+  transition: all, 0.2s;
+  background-color: rgba(0, 0, 0, 0.3); }
+
+.instructors-gallery__img--overlay:hover {
+  background-color: transparent; }
+
+.instructors-gallery__img--overlay:active {
+  background-color: rgba(109, 231, 147, 0.4); }
+
+.instructors-gallery__link {
+  position: relative; }
+
+.instructors-gallery__caption {
+  position: absolute;
+  z-index: 1;
+  left: 10%;
+  bottom: 10%;
+  font-family: "Futura PT";
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff; }
+
+.instructor-card {
+  padding: 60px;
+  min-width: 1040px; }
+
+.insructor-card__description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.instructor-card__photo {
+  width: 272px;
+  height: 272px; }
+
+.instructor-card__img {
+  width: 100%;
+  height: 100%; }
+
+.instructor-card__title {
+  font-size: 30px;
+  font-weight: 600; }
+
+.instructor-card__icon {
+  padding-top: 17px; }
+
+.instructor-card__skils {
+  float: left; }
+
+.instructor-card__skils-list {
+  padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.instructor-card__skils-item {
+  text-align: center; }
+
+.instructor-card__text-hashtag,
+.instructor-card__subtitle-hashtag {
+  text-align: left; }
+
+.instructor-card__subtitle,
+.instructor-card__subtitle-hashtag {
+  font-size: 20px;
+  font-weight: 700; }
+
+.instructor-card__text,
+.instructor-card__text-hashtag {
+  font-size: 17px;
+  font-weight: 600; }
+
+.insructor-card__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.likes-counter {
+  display: inline-block;
+  float: left;
+  padding: 5px 10px;
+  margin-top: 30px;
+  max-width: 55px;
+  border: 2px solid #000; }
+
+.likes-counter span {
+  padding-left: 7px;
+  vertical-align: middle;
+  font-weight: 600; }
+
+.insructor-card__buttons p {
+  font-weight: 600; }
+
+.likes-counter__icon {
+  float: left;
+  background-position: -68px -312px;
+  width: 15px;
+  height: 26px;
+  background-image: url(../images/icon/sprite/sprites.png); }
+
+.instructor-card__education-text {
+  float: left;
+  width: 500px;
+  font-weight: 600;
+  line-height: 22px; }
+
+.youtube-link {
+  float: right; }
+
+.insructor-card__education {
+  margin-bottom: 50px; }
+
+.insructor-card__education:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.insructor-card__education-title {
+  padding-top: 30px;
+  font-weight: 700; }
+
+.blockquote-title {
+  margin-bottom: 10px;
+  float: left;
+  font-weight: 600; }
+
+.blockquote-text {
+  clear: both;
+  font-size: 16px;
+  line-height: 22px;
+  max-width: 690px; }
+
+.blockquote__vk-icon {
+  margin-left: 25px;
+  float: left;
+  width: 30px;
+  height: 20px;
+  background-image: url(../images/icon/vk.png);
+  background-repeat: no-repeat; }
+
+/*СТРАНИЦА ИНСТРУКТОРОВ*/
+
+@media (min-width: 768px) {
+    section {
+      margin-bottom: 70px; }
+    .promo {
+      margin-bottom: 20px; }
+    .promo__link {
+      display: none; }
+    .promo__first-title {
+      padding: 100px 0 0 90px; }
+    .promo__second-title {
+      font-size: 20px; }
+    .container {
+      max-width: 768px; }
+    .services__description {
+      font-size: 20px;
+      margin-bottom: 25px; }
+  .service-row:nth-child(2) {
+    display: none; }
+    .service__photo {
+      width: 360px;
+      height: 245px;
+      margin-bottom: 35px; }
+    .service__photo--row {
+      width: 360px;
+      height: 240px; }
+    .service__title {
+      position: relative;
+      top: 0;
+      color: #000;
+      font-size: 20px; }
+    .service__description {
+      display: inline-block;
+      line-height: 22px; }
+    .service-span {
+      display: inline;
+      font-family: "Futura PT";
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 25px;
+      vertical-align: bottom; }
+    .right-arrow {
+      float: right; }
+    .advantages__info {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      text-align: center; }
+    .advantages__icon {
+      position: relative;
+      margin: 0 auto 10px; }
+    .advantages__text {
+      max-width: 200px;
+      text-align: left; }
+    .discount__info:nth-child(2),
+    .discount__info:nth-child(3) {
+      display: block; }
+    .discount__button {
+      display: block;
+      margin-bottom: 10px;
+      text-align: center; }
+    .team {
+      background-size: cover;
+      height: 690px; }
+    .team__description--wrapper {
+      height: 570px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: flex-end; }
+    .team__description {
+      display: block;
+      max-width: 760px;
+      text-align: center; }
+    .community__title {
+      margin-bottom: 30px; }
+    .community__text {
+      max-width: 560px;
+      color: #000;
+      line-height: 22px; }
+    .map {
+      margin-bottom: 45px; }
+    .gallery__title {
+      margin-bottom: 35px; }
+    .gallery__item:nth-child(3),
+    .gallery__item:nth-child(4),
+    .gallery__item:nth-child(5),
+    .gallery__item:nth-child(6) {
+      display: block; }
+  .gallery__item:nth-child(1),
+  .gallery__item:nth-child(2) {
+    display: none; } }
+
+@media (min-width: 1160px) {
+    header {
+      display: block; }
+    .promo {
+      padding-top: 100px;
+      padding-bottom: 105px; }
+    .logo__white {
+      display: none; }
+    .mobile-menu {
+      display: none; }
+    .promo__first-title {
+      padding-top: 0;
+      padding-left: 0;
+      font-size: 50px;
+      line-height: 50px; }
+    .promo__second-title {
+      font-size: 38px;
+      padding-top: 30px; }
+    .container {
+      max-width: 1170px; }
+    .services__title {
+      font-size: 40px; }
+    .services__description {
+      font-size: 20px;
+      margin-bottom: 35px; }
+  .service-row:nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .service-column {
+      margin-right: 35px; }
+    .service-row {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      margin-bottom: 35px; }
+    .advantages__title {
+      font-size: 40px; }
+    .advantages__list {
+      margin-top: 40px; }
+    .advantage__title {
+      margin-top: 30px;
+      font-size: 20px; }
+    .advantages__text {
+      max-width: 345px;
+      margin-bottom: 50px;
+      color: #000;
+      font-size: 15px;
+      line-height: 22px; }
+    .discount__title {
+      padding: 30px 0 35px;
+      font-size: 40px; }
+    .team {
+      background-size: contain; }
+    .team__title {
+      position: absolute;
+      top: -5%;
+      left: 0;
+      right: 0;
+      font-size: 40px; }
+    .community__title {
+      margin-bottom: 40px;
+      font-size: 40px; }
+    .community__text {
+      max-width: 780px; }
+    .map {
+      margin-bottom: 120px; }
+    .gallery__title {
+      margin-bottom: 40px;
+      font-size: 40px; }
+  .gallery__item:nth-child(1),
+  .gallery__item:nth-child(2) {
+    display: block; }
+    .logo-mini {
+      display: none; }
+    .contact-links {
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin-bottom: 30px; }
+    .contact-links .logo {
+      display: block; }
+    .contacts__mail {
+      -ms-flex-item-align: end;
+          align-self: flex-end;
+      font-size: 20px; }
+    .copyright {
+      text-align: left;
+      margin: 0; }
+    .copyright__text {
+      float: left;
+      font-family: "Futura PT";
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 22px;
+      margin: 0; }
+    .footer-nav {
+      display: block; } }
+
+/*# sourceMappingURL=style.css.map */

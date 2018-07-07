@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Инструкторы</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <div class="container">
+      <div class="main-menu__wrapper">
+        <div class="logo">
+          <a href="index.html">
+            <img src="images/logo.png" alt="logo" class="logo_img">
+          </a>
+        </div>
+        <nav class="main-menu">
+          <ul class="main-menu__list">
+            <li class="main-menu__item">
+              <a class="main-menu__link" href="schedule.html">Расписание</a></li>
+            <li class="main-menu__item">
+              <a class="main-menu__link main-menu__link--active" href="instructors.html">Инструкторы</a></li>
+            <li class="main-menu__item">
+              <a class="main-menu__link" href="#">Стоимость</a></li>
+            <li class="main-menu__item">
+              <a class="main-menu__link" href="#">Как добраться</a></li>
+          </ul>
+        </nav>
+        <div class="main-menu__phone-link">
+          <a href="tel:88008008080">8 (800) 800-80-80</a>
+        </div>
+        <a href="schedule.html" class="button">Записаться</a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <h1 class="title">Инструкторы школы</h1>
+      <div class="search">
+        <input class="search__instructor" type="search" name="" placeholder="Начните вводить имя">
+        <input class="search__icon" type="image" src="images/icon/search-icon.png">
+      </div>
+      <section>
+        <div class="instructor-gallery">
+          <ul class="instructors-gallery__list">
+            <li class="instructors-gallery__item">
+              <a class="instructors-gallery__link" href="#">
+                <span class="instructors-gallery__caption">Арсений<br>Петров</span>
+                <div class="instructors-gallery__photo">
+                  <img class="instructors-gallery__img" src="images/arseniy_petrov.jpg" alt="Арсений Петров">
+                  <div class="instructors-gallery__img--overlay"></div>
+                </div>
+              </a>
+            </li>
+            <li class="instructors-gallery__item">
+              <a class="instructors-gallery__link" href="#">
+                <span class="instructors-gallery__caption">Иван<br>Викторов</span>
+                <div class="instructors-gallery__photo">
+                  <img class="instructors-gallery__img" src="images/ivan_viktorov.jpg" alt="Иван Викторов">
+                  <div class="instructors-gallery__img--overlay"></div>
+                </div>
+              </a>
+            </li>
+            <li class="instructors-gallery__item">
+              <a class="instructors-gallery__link" href="#">
+                <span class="instructors-gallery__caption">Степан<br>Александров</span>
+                <div class="instructors-gallery__photo">
+                  <img class="instructors-gallery__img" src="images/stepan_aleksandrov.jpg" alt="Степан Александров">
+                  <div class="instructors-gallery__img--overlay"></div>
+                </div>
+              </a>
+            </li>
+            <li class="instructors-gallery__item">
+              <a class="instructors-gallery__link active" href="#">
+                <span class="instructors-gallery__caption">Константин<br>Константинопольский</span>
+                <div class="instructors-gallery__photo">
+                  <img class="instructors-gallery__img" src="images/konstantin_konstantinopolskiy.jpg" alt="Константин Константинопольский">
+                </div>
+                <div class="instructors-gallery__img--overlay"></div>
+              </a>
+            </li>
+            <li class="instructors-gallery__item">
+              <a class="instructors-gallery__link" href="#">
+                <span class="instructors-gallery__caption">Виталий<br>Сергеев</span>
+                <div class="instructors-gallery__photo">
+                  <img class="instructors-gallery__img" src="images/vitaliy_sergeev.jpg" alt="Виталий Сергеев">
+                  <div class="instructors-gallery__img--overlay"></div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="instructor-card">
+          <div class="insructor-card__description">
+            <div class="instructor-card__photo">
+              <img class="instructor-card__img" src="images/konstantin_konstantinopolskiy.jpg" alt="Константин Константинопольский">
+            </div>
+            <div class="instructor-card__skils">
+              <h2 class="instructor-card__title">Константин Константинопольский</h2>
+              <ul class="instructor-card__skils-list">
+                <li class="instructor-card__skils-item">
+                  <h3 class="instructor-card__subtitle">Спорт</h3>
+                  <img class="instructor-card__icon" src="images/icon/ski-instructors.png" alt="ski-icon">
+                </li>
+                <li class="instructor-card__skils-item">
+                  <h3 class="instructor-card__subtitle">Стаж катания</h3>
+                  <p class="instructor-card__text">7 лет</p>
+                </li>
+                <li class="instructor-card__skils-item">
+                  <h3 class="instructor-card__subtitle-hashtag">Стиль</h3>
+                  <p class="instructor-card__text-hashtag">
+                    #allroad<br>
+                    #freeride<br>
+                    #skiicross<br>
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="insructor-card__buttons">
+              <a class="button" href="">Записаться</a>
+              <div class="likes-counter">
+                <div class="likes-counter__icon"></div>
+              <span>5</span></div>
+              <p>Спасибо!</p>
+            </div>
+          </div>
+
+          <div class="insructor-card__education">
+            <h3 class="insructor-card__education-title">Образование</h3>
+            <div class="instructor-card__education-text">
+            <p class="instructor-card__education-text">Национальная лига инструкторов, сертификат инструктора<br>по горным лыжам, г. Санкт-Петербург (2014 год).</p>
+            <p class="instructor-card__education-text">Занимается горными лыжами с 2002 года.<br>Первый взрослый разряд по горным лыжам — в 2010 г.<br>Опыт тренерской работы с 2012 года.</p>
+            <p class="instructor-card__education-text">3 место на чемпионате Ленинградской области по горным лыжам.<br>1 место на чемпионате Карелии по горным лыжам.</p>
+            </div>
+
+          <iframe class="youtube-link" width="500" height="315" src="https://www.youtube.com/embed/N2CWCJJilfk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+
+          <blockquote>
+            <h3 class="blockquote-title">Марина Ильина</h3>
+            <div class="blockquote__vk-icon"></div>
+            <p class="blockquote-text">Костя — отличный тренер! Провела с ним всего одно занятие, чего, в принципе,<br>мне и было достаточно. Я и раньше занималась горными лыжами, и мне нужно было<br>вспомнить и наверстать упущенное. Инструктор очень пунктуальный, вежливый и тактичный.<br>Цели я своей добилась, он помог мне вновь встать на лыжи и закрепить свои навыки даже<br>за одно занятие.</p>
+          </blockquote>
+        </div>
+
+        <div class="instructors-gallery">
+          <ul class="instructors-gallery__list">
+            <li class="instructors-gallery__item">
+              <a class="instructors-gallery__link" href="#">
+                <span class="instructors-gallery__caption">Иван<br>Артемов</span>
+                <div class="instructors-gallery__photo">
+                  <img class="instructors-gallery__img" src="images/ivan_artemov.jpg" alt="Иван Артемов">
+                </div>
+                <div class="instructors-gallery__img--overlay"></div>
+              </a>
+            </li>
+            <li class="instructors-gallery__item">
+              <a class="instructors-gallery__link" href="#">
+                <span class="instructors-gallery__caption">Петр<br>Иванов</span>
+                <div class="instructors-gallery__photo">
+                  <img class="instructors-gallery__img" src="images/petr_ivanov.jpg" alt="Петр Иванов">
+                </div>
+                <div class="instructors-gallery__img--overlay"></div>
+              </a>
+            </li>
+            <li class="instructors-gallery__item">
+              <a class="instructors-gallery__link" href="#">
+                <span class="instructors-gallery__caption">Андрей<br>Степанов</span>
+                <div class="instructors-gallery__photo">
+                  <img class="instructors-gallery__img" src="images/andrey_stepanov.jpg" alt="Андрей Степанов">
+                  <div class="instructors-gallery__img--overlay"></div>
+                </div>
+              </a>
+            </li>
+            <li class="instructors-gallery__item">
+              <a class="instructors-gallery__link" href="#">
+                <span class="instructors-gallery__caption">Данила<br>Алексеев</span>
+                <div class="instructors-gallery__photo">
+                  <img class="instructors-gallery__img" src="images/danila_alekseev.jpg" alt="Данила Алексеев">
+                  <div class="instructors-gallery__img--overlay"></div>
+                </div>
+              </a>
+            </li>
+            <li class="instructors-gallery__item">
+              <a class="instructors-gallery__link" href="#">
+                <span class="instructors-gallery__caption">Дмитрий<br>Егоров</span>
+                <div class="instructors-gallery__photo">
+                  <img class="instructors-gallery__img" src="images/dmitriy_egorov.jpg" alt="Дмитрий Егоров">
+                  <div class="instructors-gallery__img--overlay"></div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+      <div class="container">
+        <div class="footer">
+          <div class="contact-links">
+            <div class="logo">
+              <a href="index.html">
+                <img src="images/logo.png" alt="logo" class="logo_img">
+              </a>
+            </div>
+            <div class="social">
+              <ul class="social-list">
+                <li class="social-item">
+                  <a class="social__youtube" href="#"></a>
+                </li>
+                <li class="social-item">
+                  <a class="social__instagram" href="#"></a>
+                </li>
+                <li class="social-item">
+                  <a class="social__facebook" href="#"></a>
+                </li>
+                <li class="social-item">
+                  <a class="social__vk" href="#"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="contacts">
+              <a class="contacts__phone" href="tel:88008008080">8 (800) 800-80-80</a>
+              <a class="contacts__mail" href="mailto:hello@iceace.com">hello@iceace.com</a>
+            </div>
+          </div>
+          <div class="footer-wrapper">
+            <div class="copyright">
+              <p class="copyright__text">&copy; 2017 <span class="copyrigth__span">"ICE ACE"</span> &mdash; школа сноуборда и<br> горных лыж. Все права защищены
+              </p>
+            </div>
+            <nav class="footer-nav">
+              <ul class="footer-nav__list">
+                <li class="footer-nav__item">
+                  <a class="footer-nav__link" href="schedule.html">Расписание</a></li>
+                <li class="footer-nav__item">
+                  <a class="footer-nav__link" href="instructors.html">Инструкторы</a></li>
+                <li class="footer-nav__item">
+                  <a class="footer-nav__link" href="#">Стоимость</a></li>
+                <li class="footer-nav__item">
+                  <a class="footer-nav__link" href="#">Как добраться</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>

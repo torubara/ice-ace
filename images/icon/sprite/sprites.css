@@ -1,0 +1,76 @@
+.bus, .calendar, .certificate, .facebook-logo, .flash, .instagram-logo, .like, .right-arrow, .ski, .snowboard-helmet, .vk-logo, .youtube-logo{
+	background: url(sprites.png) no-repeat;
+}
+
+.bus{
+	background-position: -6px -232px ;
+	width: 80px;
+	height: 55px;
+}
+
+.calendar{
+	background-position: -98px -224px ;
+	width: 58px;
+	height: 61px;
+}
+
+.certificate{
+	background-position: -78px -149px ;
+	width: 53px;
+	height: 61px;
+}
+
+.facebook-logo{
+	background-position: -114px -6px ;
+	width: 18px;
+	height: 33px;
+}
+
+.flash{
+	background-position: -68px -312px ;
+	width: 15px;
+	height: 26px;
+}
+
+.instagram-logo{
+	background-position: -58px -8px ;
+	width: 32px;
+	height: 32px;
+}
+
+.like{
+	background-position: -86px -68px ;
+	width: 60px;
+	height: 61px;
+}
+
+.right-arrow{
+	background-position: -6px -310px ;
+	width: 37px;
+	height: 27px;
+}
+
+.ski{
+	background-position: -9px -52px ;
+	width: 61px;
+	height: 75px;
+}
+
+.snowboard-helmet{
+	background-position: -9px -146px ;
+	width: 58px;
+	height: 71px;
+}
+
+.vk-logo{
+	background-position: -154px -14px ;
+	width: 40px;
+	height: 24px;
+}
+
+.youtube-logo{
+	background-position: -8px -9px ;
+	width: 32px;
+	height: 32px;
+}
+
