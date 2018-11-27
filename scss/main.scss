@@ -366,6 +366,9 @@
   background-image: url(../images/icon/sprite/sprites.png);
   @media (min-width: $screen-sm){
     float: right;
+    position: relative;
+    bottom: inherit;
+    right: inherit;
   }
 }
 
@@ -930,6 +933,7 @@ table {
 th {
   padding-bottom: 10px;
   text-align: left;
+  font-size: 20px;
 }
 
 td {
@@ -967,6 +971,10 @@ td a {
 
 .programm__description-title {
   font-size: 30px;
+}
+
+.programm__description-link {
+  border-bottom: 3px solid #6de793;
 }
 
 .programm__description-text--bold {
@@ -1010,6 +1018,31 @@ td a {
   display: inline-block;
 }
 
+.back-call__form {
+  font-family: "Futura PT";
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.back-call__form .button {
+  display: block;
+  width: 140px;
+  margin: 60px auto 60px;
+}
+
+.back-call__input {
+  width: 100%;
+  border: 2px solid #000;
+  height: 45px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.message__input {
+  height: 140px;
+}
+
+
 /*СТРАНИЦА РАСПИСАНИЯ*/
 
 
@@ -1024,9 +1057,6 @@ input {
 
 }
 
-.search__instructor {
-  border: 1px solid #000;
-}
 
 .search {
   width: 640px;
@@ -1039,7 +1069,7 @@ input {
   font-family: "PT Sans";
   padding: 10px;
   width: 585px;
-
+  border:none;
 }
 
 .search__icon {  //да я вставила в форму поиска отдельную картинку, вместо того чтобы зашить ее в спрайт. Сделала так, потому что было быстрее

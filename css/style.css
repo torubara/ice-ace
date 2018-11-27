@@ -666,7 +666,8 @@ table {
 
 th {
   padding-bottom: 10px;
-  text-align: left; }
+  text-align: left;
+  font-size: 20px; }
 
 td {
   min-width: 300px;
@@ -702,6 +703,9 @@ td a {
 .programm__description-title {
   font-size: 30px; }
 
+.programm__description-link {
+  border-bottom: 3px solid #6de793; }
+
 .programm__description-text--bold {
   font-weight: bold; }
 
@@ -732,14 +736,31 @@ td a {
 .programm__tabs-item {
   display: inline-block; }
 
+.back-call__form {
+  font-family: "Futura PT";
+  font-weight: 600;
+  font-size: 20px; }
+
+.back-call__form .button {
+  display: block;
+  width: 140px;
+  margin: 60px auto 60px; }
+
+.back-call__input {
+  width: 100%;
+  border: 2px solid #000;
+  height: 45px;
+  margin-top: 10px;
+  margin-bottom: 20px; }
+
+.message__input {
+  height: 140px; }
+
 /*СТРАНИЦА РАСПИСАНИЯ*/
 /*СТРАНИЦА ИНСТРУКТОРОВ*/
 form {
   margin: auto;
   width: 555px; }
-
-.search__instructor {
-  border: 1px solid #000; }
 
 .search {
   width: 640px;
@@ -750,7 +771,8 @@ form {
 .search__instructor {
   font-family: "PT Sans";
   padding: 10px;
-  width: 585px; }
+  width: 585px;
+  border: none; }
 
 .search__icon {
   padding: 5px 10px 5px;
@@ -972,7 +994,10 @@ form {
       line-height: 25px;
       vertical-align: bottom; }
     .right-arrow {
-      float: right; }
+      float: right;
+      position: relative;
+      bottom: inherit;
+      right: inherit; }
     .advantages__info {
       display: -webkit-box;
       display: -ms-flexbox;
